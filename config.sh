@@ -9,5 +9,3 @@ git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(ye
 git config --global alias.last 'log -1 --stat'
 git config --global alias.unstage 'reset HEAD --'
 git config --global alias.boom 'reset --hard HEAD'
-
-# From [babun](https://github.com/babun/babun/blob/991159167bc4b3c2d1c3fb4aaae12d7710f45504/babun-core/plugins/git/install_home.sh)
