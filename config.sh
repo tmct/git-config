@@ -13,3 +13,4 @@ git config --global alias.boom 'reset --hard HEAD'
 
 #Gerrit
 git config --global alias.gpm 'push origin HEAD:refs/for/master'
+git config --global alias.gdm 'push origin HEAD:refs/drafts/master'
