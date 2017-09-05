@@ -14,3 +14,7 @@ git config --global alias.boom 'reset --hard HEAD'
 #Gerrit
 git config --global alias.gpm 'push origin HEAD:refs/for/master'
 git config --global alias.gdm 'push origin HEAD:refs/drafts/master'
+
+#Thanks to https://gist.github.com/jasonrudolph/1810768
+alias gitBranchHistory='for branch in `git branch | grep -v HEAD`;do echo -e `git show --format="%ci %cr" $branch | head -n 1` \\t$branch; done | sort -r'
+alias gitBranchHistoryRemote='for branch in `git branch -r | grep -v HEAD`;do echo -e `git show --format="%ci %cr" $branch | head -n 1` \\t$branch; done | sort -r'
