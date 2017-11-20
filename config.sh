@@ -10,6 +10,7 @@ git config --global alias.la "log --graph --pretty=format:'%Cred%h%Creset -%C(ye
 git config --global alias.last 'log -1 --stat'
 git config --global alias.unstage 'reset HEAD --'
 git config --global alias.boom 'reset --hard HEAD'
+git config --global alias.zap 'reset --hard origin/master'
 
 #Gerrit
 git config --global alias.gpm 'push origin HEAD:refs/for/master'
