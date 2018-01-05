@@ -12,6 +12,9 @@ git config --global alias.unstage 'reset HEAD --'
 git config --global alias.boom 'reset --hard HEAD'
 git config --global alias.zap 'reset --hard origin/master'
 
+#submodules
+git config --global alias.pullall '!f(){ git pull "$@" && git submodule update --init --recursive; }; f'
+
 #Gerrit
 git config --global alias.gpm 'push origin HEAD:refs/for/master'
 git config --global alias.gdm 'push origin HEAD:refs/drafts/master'
